@@ -1,5 +1,3 @@
-# and or not
-
 
 height_income = False
 good_credit = True
