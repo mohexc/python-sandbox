@@ -1,12 +1,6 @@
-
-height_income = False
-good_credit = True
-student = False
-
-
-# if height_income and good_credit:
-# if height_income or good_credit:
-if not student:
-    print("Eligible")
-else:
-    print("Not eligible")
+count = 0
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even number")
