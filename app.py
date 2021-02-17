@@ -1,6 +1,7 @@
-count = 0
-for number in range(1, 10):
-    if number % 2 == 0:
-        count += 1
-        print(number)
-print(f"We have {count} even number")
+try:
+    age = int(input('Age:'))
+    xfactor = 10 / age
+except (ValueError, ZeroDivisionError):
+    print("You didn't enter a valid age.")
+else:
+    print("Execution continues.")
